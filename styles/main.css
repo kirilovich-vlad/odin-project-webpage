@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.header > * {
+    margin: 0.5rem 1rem;
+}
+
+
+.filler {
+    flex-grow: 1;
+}
+
+.randInfoRow {
+    flex-grow: 1;
+}
+
+.quoteRow {
+    flex-grow: 1;
+}
+
+.secondAction {
+    flex-grow: 1;
+}
+
+.footer {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
