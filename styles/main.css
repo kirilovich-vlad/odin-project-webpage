@@ -1,39 +1,71 @@
-body{
-    min-height: 100vh;
-    display:flex;
-    flex-flow: column nowrap;
+body {
+    margin:0;
+    font-family: 'sans-serif';
 }
 
 .header{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size:18px;
+    padding-left:5%;
+    padding-right: 5%;
 }
 
 .header > * {
     margin: 0.5rem 1rem;
 }
 
-
-.filler {
-    flex-grow: 1;
+#headerLogo {
+    color:#F9FAF8;
+    font-size: 24px;
 }
 
-.randInfoRow {
-    flex-grow: 1;
+#firstActionBG {
+    background-color: #1F2937;
+    padding: 5%
 }
 
-.quoteRow {
-    flex-grow: 1;
-}
-
-.secondAction {
-    flex-grow: 1;
-}
-
-.footer {
-    padding: 0.5rem 1rem;
+#firstAction {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    width:80%;
+    margin: 0 auto;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#topSignUpText {
+    display: flex;
+    flex-flow: column;
+    flex-basis:45%;
+}
+
+#awesomeTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+button {
+    background-color: #3882F6;
+    border:0;
+    padding: 0.3em 2em;
+    border-radius: 5%;
+    color: #F9FAF8;
+    font-size:18px
+}
+
+#topSignUpContent{
+    flex-basis: 45%;
+}
+
+#topSignUpContent > IMG {
+    width:100%;
+    display: block;
+    margin: 0 auto;
 }
