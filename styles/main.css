@@ -69,3 +69,38 @@ button {
     display: block;
     margin: 0 auto;
 }
+
+.cardholderRow {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+#cardholderTitle {
+    text-align: center;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+
+.cardholder {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 18px;
+    color:#1F2937;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    text-align: center;
+}
+
+.cardImage {
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
