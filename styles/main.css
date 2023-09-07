@@ -142,3 +142,11 @@ p.quoteAuthor {
     border-radius: 5px;
     color: #F9FAF8;
 }
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 1rem 0;
+    
+}
